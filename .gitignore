@@ -1,37 +1,38 @@
-HELP.md
-.gradle
-build/
-!gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
+# Jekyll 생성 파일
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+# Ruby 환경
+.bundle/
+vendor/bundle/
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+# macOS 시스템 파일
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# Windows 시스템 파일
+Thumbs.db
+ehthumbs.db
+Desktop.ini
 
-### VS Code ###
+# IDE/편집기 파일
+*.swp
+*.swo
+*~
 .vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 로그 파일
+*.log
+
+# 환경 설정 파일
+.env
+
